@@ -13,8 +13,10 @@ timer.py uses the random library to generate a random number within the range.
 
 import time # The time library has a sleep function that will pause the script for a specified amount of time
 import random # The random library allows us to generate a random number between 5-25 seconds
+import sys # Allows the program to print the first statement in Bash without delay
 
 print("Players stand") # Program to display text informing players to stand
+sys.stdout.flush() # Allows the text above to be printed prior to the sleep function
 
 
 set_time = random.randint(6, 24) # Random time between 5-25 seconds, therefore any number from 6-24
