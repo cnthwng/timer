@@ -2,7 +2,8 @@
 ### MGTC28 In-Class Assignment 4
 This is a timer program written in Python  
 
-![times-up!](https://media.makeameme.org/created/times-up-5923e0.jpg)\
+![image](https://github.com/cnthwng/timer/assets/145368830/65ba1dee-cf85-4bc5-b3a7-573deaae2dff)
+
 timer.py is a simple Python script setting a timer between 5-25 seconds starting from the beginning of the game when the program informs players to stand.  
 Upon timer expiry, the program will display text indicating to players that the game is over. 
 timer.py uses the **time library** to help keep track of time and the **random library** to set a random time duration.
